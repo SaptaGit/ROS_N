@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>canny_edge_my_face</name>
+  <version>0.1.0</version>
+  <description>canny_edge_my_face use computer camera and create the edge map using Canny edge detection technique
+  </description>
+  <maintainer email="saptarshim11@gmail.com">Saptarshi Mukherjee</maintainer>
+  <license>BSD</license>
+
+  <author email="saptarshim11@gmail.com">Saptarshi Mukherjee</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>libopencv-dev</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nodelet</build_depend>
+  <build_depend>camera_info_manager</build_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>roslint</build_depend>
+
+  <run_depend>libopencv-dev</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>nodelet</run_depend>
+  <run_depend>camera_info_manager</run_depend>
+
+</package>
